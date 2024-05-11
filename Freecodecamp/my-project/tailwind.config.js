@@ -9,7 +9,14 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        vuejs: {
+          100: "#49e659",
+          932: "#434252"
+        }
+      }
+    }
   },
   plugins: [],
 }
