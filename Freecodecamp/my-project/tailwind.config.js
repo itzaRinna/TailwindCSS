@@ -34,6 +34,11 @@ module.exports = {
         '5': '32px',
         '6': '48px',
       },
+      fontSize: {
+        xs: '12px',
+        sm: '15px',
+        base: '18px',
+      },
       colors: {
         vuejs: {
           100: "#49e659",
